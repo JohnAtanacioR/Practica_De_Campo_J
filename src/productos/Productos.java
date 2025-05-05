@@ -24,4 +24,36 @@ public class Productos {
         }
         this.nombre = nombre;
     }
+    // Getters y setters
+    public int getCodigo() {
+        return codigo;
+    }
+    
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+    
+    public double getPrecio() {
+        return precio;
+    }
+    
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+    
+    public String getNombre() {
+        return nombre;
+    }
+    
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
+    public void MostrarDatos() {
+        System.out.println("----------------------------");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Precio: " + precio);
+        System.out.println("Código: " + codigo);
+        System.out.println("----------------------------");
+    }
 }
